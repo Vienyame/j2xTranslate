@@ -1,0 +1,5 @@
+  <div #view></div>
+<folder_node></folder_node>
+  <ng-container *ngIf="vienData$ | async as xml">
+    <pre lang="xml">{{xml}}</pre>
+  </ng-container>

@@ -1,0 +1,1 @@
+export { googleAnalytics } from './googleAnalytics';

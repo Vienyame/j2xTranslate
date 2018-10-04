@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+$enable-flex: true;
+
+//Material theme
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+//******App styles **********/
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "common";
+@import "global";

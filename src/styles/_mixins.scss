@@ -1,0 +1,13 @@
+
+@mixin text-stylizer($fontFamily, $fontSize, $color, $textWeight, $textStyle) {
+  text-transform: $textStyle;
+  font:{
+    size: $fontSize;
+    weight: $textWeight;
+    family: $fontFamily;
+  }
+  clear: both;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:$color;
+}

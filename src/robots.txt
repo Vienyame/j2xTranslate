@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+
+User-agent: *
+Allow: /home
+Allow: /staff
+Allow: /about
+
+User-agent: Mediapartners-Google
+Allow: /home
+Allow: /staff
+Allow: /about

@@ -1,0 +1,29 @@
+//FONTS
+$raleway-light: 'Raleway Light';
+$raleway-medium: 'Raleway Medium';
+$raleway-bold: 'Raleway Bold';
+$raleway-regular: 'Raleway Regular';
+
+
+body, html{
+  font-family: $raleway-regular;
+}
+
+
+/* -- GLOBAL COLOR -- */
+$dark:#000000;
+$grey: #f7f7f7;
+$gray-light: #cdcdcd;
+$gray-dark: #929292;
+$gray-darker: #1a171b;
+$gray-darkest: #010101;
+$white: #FFFFFF;
+$blue-puls: #39C7EB;
+$blue: #1a84ce;
+$lemon-green: #95c513;
+$green: #55b73e;
+$green-ligth: rgba(26, 127, 28, 0.53);
+$gold: #FFA500;
+$red: #be0000;
+$red-light: rgba(182, 0, 0, 0.42);
+$greyhover: #dbdbdb;

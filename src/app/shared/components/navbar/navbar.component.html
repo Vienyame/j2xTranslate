@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>
+      <a routerLink="/" (click)="_gaEvents.submitEvent(_gaEvents.gaEventCategory.NAVBAR_LINKS, _gaEvents.gaEventAction.CLICKED, _gaEvents.gaEventLabelPrefix.PAGEVISITED + ' - Home')"
+        mat-button>j2xTranslate</a>
+    </span>
+    <span class="navbar-spacer"></span>
+    <mat-form-field>
+      <mat-select [(ngModel)]="selectedLang" (selectionChange)="useLanguage($event.value)">
+        <mat-option *ngFor="let lang of languages" [value]="lang.locale" >
+          {{ lang.value | translate }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <a routerLink="/about" (click)="_gaEvents.submitEvent(_gaEvents.gaEventCategory.NAVBAR_LINKS, _gaEvents.gaEventAction.CLICKED,_gaEvents.gaEventLabelPrefix.PAGEVISITED + ' - About')"
+      mat-button>{{'PUBLIC.MENU.ABOUT' | translate}}</a>
+  </mat-toolbar-row>
+</mat-toolbar>
